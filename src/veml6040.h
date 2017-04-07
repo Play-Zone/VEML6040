@@ -66,6 +66,8 @@ SOFTWARE.
 #define VEML6040_GSENS_640MS      0.01573
 #define VEML6040_GSENS_1280MS     0.007865
 
+#include <math.h>
+
 class VEML6040 {
 	
   private: 
